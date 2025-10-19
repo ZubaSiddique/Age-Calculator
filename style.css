@@ -50,6 +50,9 @@ button:hover{
     font-size: 18px;
 }
 @media (max-width:400px) {
+    body{
+        background-color:#ECEDB0 ;
+    }
     .box{
         width: 80%;
         height: 265px;

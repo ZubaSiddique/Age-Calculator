@@ -17,5 +17,5 @@ if(months<0){
     years--;
     months+=12;
 }
-document.getElementById('result').textContent=`You are ${years} years, ${months} months , ${days} old `;
+document.getElementById('result').textContent=`You are ${years} years, ${months} months , ${days} days old `;
 }

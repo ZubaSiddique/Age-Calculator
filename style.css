@@ -51,7 +51,7 @@ button:hover{
 }
 @media (max-width:400px) {
     body{
-        background-color:#ECEDB0 ;
+        background-color:#FFC69D ;
     }
     .box{
         width: 80%;

@@ -1,7 +1,8 @@
 function calculateAge(){
-const dobinput= document.getElementById('dob').ariaValueMax;
+const dobinput= document.getElementById('dob').value;
 if(!dobinput){
-
+           document.getElementById('result').textContent = 'Please enter your date of birth.';
+        return;
 }
 const birthdate=new Date(dobinput);
 const today=new Date();
